@@ -24,4 +24,13 @@ text-decoration: none;
     padding: 12px 16px;
     border: none;
     border-radius: 4px;
+} 
+.banar-content{ height: 379px;
+width: 1360px;
+gap: 32px;}
+section{
+    height: 674px;
+    width: 1600px;
+    padding: 70px 120px 134px 120px;
+    gap: 40px;background: url(../First-Assignment/B13-A01-Knowledge-Vault/assets/hero-bg.png);
 }
