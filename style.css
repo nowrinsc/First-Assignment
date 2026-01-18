@@ -25,19 +25,23 @@ text-decoration: none;
     border: none;
     border-radius: 4px;
 } 
-section{
+#banar{
+    display: flex;
+    flex-direction: column;
     height: 674px;
     width: 1600px;
     padding: 70px 120px 134px 120px;
-    gap: 40px;background: url(../First-Assignment/B13-A01-Knowledge-Vault/assets/hero-bg.png);
+    gap: 32px;background: url(../First-Assignment/B13-A01-Knowledge-Vault/assets/hero-bg.png);
     color: #FFFFFF;}
-.banar-content{ height: 379px;
+.banar-content .text{   display: flex;
+    flex-direction: column;  height: 379px;
 width: 1360px;
 gap: 32px;}
 .text{height: 295px;
 width: 1360;
 gap: 16px;}
-button{width: 229px;
+button{display: flex;
+ width: 229px;
 height: 35px;
 border: none;
 border-radius: 1000px;
@@ -54,12 +58,125 @@ font-weight: 700;font-style: bold; font-size: 72px;line-height: 84px; text-align
 }p .text{ width: 1360px;
 height: 60px;
 font-weight: 400;font-style: normal;font-size: 18px;line-height: 24px;text-align: center;}
-.btn .btn1{ width: 465px;
+.btn .btn1{ display: flex;
+    width: 465px;
     height: 52px;
 gap: 16px;}
-.btn1{height: 52px;
+.btn1{ display: flex; height: 52px;
 width: 198px;border: 1px solid;border-radius: 4px;padding: 12px 16px;gap: 10px;color: #FFFFFF; background-color:none;}
 h1 .text,p .text{color: #FFFFFF;}
+#app{display: flex;
+    flex-direction: column; width: 1600px;
+height: 448px;
+padding: 0 120px 120px 120px;
+gap: 44px;
+}
+#app h1 .apps , p .text1{display: flex;
+    flex-direction: column; width: 1360px;
+height: 152px;
+gap: 16px;}#app
+h1 .apps{width: 1360px;height: 116px;
+font-weight: 700;font-style: bold;font-size: 48px;line-height: 100%;letter-spacing: 0%;text-align: center; display: flex;color: #001931;}#app p .text1{ width: 1360px;height: 20px;
+font-weight: 400;font-size: 16px;line-height: 20px;letter-spacing: 0%;text-align: center; display: flex;color: #627382;margin-bottom: 12px;}#otp{ display: flex;
+height: 300px;
+width: 1360px;
+gap: 24px;}
+#otp .box .text1{ display: flex;flex-direction: column;height: 300px;
+width: 332px;
+border: solid;border-radius: 8px;
+padding: 24px;gap: 16px;
+color: #FFFFFF;
+box-shadow: #000000 6%;justify-content: space-between; display: flex;flex-direction: row;}
+#otp .box{ width:274px;height: 29px;
+font-weight: 600;
+font-style: 600;
+font-size: 24px;line-height: 100%;
+letter-spacing: 0%;
+text-align: center;color: #001931;}
+#otp .text1{ width: 274px;height: 40px;
+font-weight: 400;
+font-size: 16px;line-height: 20px;
+letter-spacing: 0%;
+margin-bottom: 12px;
+text-align: center;color: #627382;}
+#app1{display: flex;flex-direction: column;width: 1600px;height: 840px;padding: 120px;gap: 40px;
+color: #FFFFFF;}
+#app1 img h6 h1 p ul li{ display: flex;flex-direction: row;
+width: 1360px;
+height: 600px;
+gap: 60px;}
+#app1 img{ width: 600px;height: 600px;border: solid;border-radius: 12px;}
+#app1 h6 h1 p ul li{ display: flex;flex-direction: column;
+width: 700px;height: 396px;
+gap: 40px;}
+#app1 h6 h1 p{ display: flex;flex-direction: column;
+width: 700px;height: 228px;
+gap: 16px;}
+#app1 h6{width: 700px;height: 20px; font-weight: 500;font-style: 500;
+font-size: 16px;line-height:20px;
+letter-spacing: 0%;
+margin-bottom: 12px;
+text-align: center;color: #469165;}
+#app1 h1{width:700px; height: 116px; font-weight: 700;font-style:bold;
+font-size: 48px;line-height:100%;
+letter-spacing: 0%;
+color: #001931;}
+#app1 p{width:700px; height: 60px; font-weight: 400;
+font-size: 16px;line-height:20px;
+letter-spacing: 0%;margin-bottom: 12px;
+color: #627382;}
+#app1  label { display: flex;flex-direction: column;
+width: 700px;height: 128px;
+gap: 16px;}
+#app1  input{ display: flex;flex-direction: row;
+width: 700px;height: 20px;
+gap:6px;}
+#app1 input span{ 
+width: 382px;height: 20px;
+font-weight:500; font-style:500;
+font-size: 16px;line-height:20px;
+letter-spacing: 0%;
+color: #001931;
+margin-bottom: 12px;}
+#app2{ display: flex;flex-direction: row;
+width: 1600px;
+height: 506px;
+gap: 40px; padding: 2px 120px 120px 120px; background-color: #FFFFFF;justify-content: space-between;}
+#app2 div{ display: flex;flex-direction: row;
+width: 1360px;
+height: 384px;
+gap: 24px; padding: 80px 40px; background-color: #F7F6F2;}
+#app2 div h1 p{ display: flex;flex-direction: row;
+width: 1280px;
+height: 112px;
+gap: 16px;}
+#app2 div h1{width:1280px; height: 48px; font-weight: 700;
+    font-style: bold;
+font-size: 40px;line-height:100%;
+letter-spacing: 0%;text-align: center;
+color: #001931;}
+#app2 div p,li {width:1280px; height: 48px; font-weight: 700;
+font-size: 16px;line-height:24px;margin-bottom:12px ;
+letter-spacing: 0%;text-align: center;
+color: #627382;}
+#app2 .btn .free{display: flex;flex-direction: row;
+width: 1280px;
+height: 88px;
+gap: 16px;}
+#app2 .free {width:1280px; height: 20px; font-weight: 400;
+font-size: 16px;line-height:20px;margin-bottom:12px ;
+letter-spacing: 0%;text-align: center;
+color: #627382;}
+
+
+
+
+
+
+
+
+
+
 
 
 
