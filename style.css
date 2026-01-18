@@ -167,6 +167,24 @@ gap: 16px;}
 font-size: 16px;line-height:20px;margin-bottom:12px ;
 letter-spacing: 0%;text-align: center;
 color: #627382;}
+#Social{ display: flex;flex-direction: row;
+width: 1600px;
+height: 348px;border: solid 1px;
+ padding: 120px 120px  30px 120px;
+ gap: 80px; background-color: #001931;}
+ #Social div p{ display: flex;flex-direction: row;
+width: 1360px;
+height: 64px; justify-content: space-between;}
+#Social img{ width: 139px;height: 60px;}
+ #Social #link .icon ,p{ display: flex;flex-direction: column;
+width: 220px;
+height: 64px; gap: 16px;}
+#Social #link span{width:113px; height: 28px; font-weight: 500;
+    font-style: 500;
+font-size: 20px;line-height:28px;
+letter-spacing: 0%;text-align: center;
+color: #FFFFFF; }
+
 
 
 
