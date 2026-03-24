@@ -57,6 +57,11 @@ nav {
   gap: 10px;
   cursor: pointer;
 }
+.btn:hover{
+  background-color:#001931;
+  color: #f95555;
+  
+}
 .header {
   height: 674px;
   white-space: nowrap;
@@ -94,6 +99,10 @@ nav {
   border: none;
   border-radius: 1000px;
   cursor: pointer;
+}
+.btn1:hover{
+  background-color:#001931;
+  color: #f95555;
 }
 .img {
   width: 16px;
@@ -139,6 +148,10 @@ nav {
   align-items: center;
   width: 185px;
   font-size: 16px;
+}
+.btn2:hover{
+  background-color:#001931;
+  color: #f95555;
 }
 .img1 {
   height: 20px;
